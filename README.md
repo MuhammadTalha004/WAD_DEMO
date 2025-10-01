@@ -1,2 +1,4 @@
 # WAD_DEMO
-first line
+
+<h1>first line</h1>
+<h2>second line</h2>
