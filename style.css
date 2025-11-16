@@ -1,0 +1,71 @@
+.div1 {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align-last: center;
+    position: fixed;
+    float: right;
+}
+.div2{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    text-align-last: justify;
+    position: sticky;
+    z-index: -1;
+    clear: left;
+}
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+  }
+  .box1 {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    background-color: grey;
+    display: inline-block;
+  }
+  .box2 {
+    float: left;
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px; /* if you want space between the images */
+    background-color: grey;
+    display: inline-block;
+  }
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;outline-width: thin;outline-color: red;}
+p.solid {outline-style: solid;outline-width: medium;}
+p.double {outline-style: double;outline-width: thick;}
+p.groove {outline-style: groove;outline: 7px solid yellow;}
+p.ridge {outline-style: ridge;}
+p.inset {margin: 30px;
+    padding: 5px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 3px inset red;
+    outline-offset: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+p.outset {outline-style: outset;outline-width: 10px; font-family: Tahoma, Verdana, sans-serif;font-style: normal;}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  h2{
+    background-color: black;
+    color: white;
+    text-align: justify;
+  }
+.div3{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
